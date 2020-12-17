@@ -12,7 +12,7 @@ export default function App(){
     const imc =  peso / (alt * alt);
 
     if (imc < 18.6) {
-      alert ('Voce esta abaixo do peso ' + imc.toFixed(2));
+      alert ('Voce esta abaixo do peso ' + imc.toFixed(2));//teste
     } else if (imc >= 18.6 && imc < 24.9) {
       alert ('Peso ideal ' + imc.toFixed(2));
 
